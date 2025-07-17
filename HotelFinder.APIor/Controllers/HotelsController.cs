@@ -11,9 +11,9 @@ namespace HotelFinder.APIor.Controllers
     public class HotelsController : ControllerBase
     {
         private IHotelService _hotelService;
-        public HotelsController()
+        public HotelsController(IHotelService hotelService )
         {
-            _hotelService = new HotelManager();
+            _hotelService = hotelService;
         }
         [HttpGet]   
         public List<Hotel> Get()

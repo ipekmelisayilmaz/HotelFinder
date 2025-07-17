@@ -14,9 +14,9 @@ namespace HotelFinder.Business.Concrete
     {
         private IHotelRepository _hotelRepository;
 
-        public HotelManager()
+        public HotelManager(IHotelRepository hotelRepository)
         {
-            _hotelRepository= new HotelRepository();
+            _hotelRepository= hotelRepository;
         }
         public Hotel CreateHotel(Hotel hotel)
         {
