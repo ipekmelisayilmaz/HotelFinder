@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\" />
+    <ProjectReference Include="..\HotelFinder.DataAccess\HotelFinder.DataAccess.csproj" />
+    <ProjectReference Include="..\HotelFinder.Entities\HotelFinder.Entities.csproj" />
   </ItemGroup>
 
 </Project>
