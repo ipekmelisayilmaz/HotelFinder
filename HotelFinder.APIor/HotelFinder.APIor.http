@@ -1,0 +1,6 @@
+@HotelFinder.APIor_HostAddress = http://localhost:5218
+
+GET {{HotelFinder.APIor_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

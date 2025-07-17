@@ -28,7 +28,7 @@ namespace HotelFinder.Business.Concrete
              _hotelRepository.DeleteHotel(id);
         }
 
-        public List<Hotel> GetAllHotel()
+        public List<Hotel> GetAllHotels(int id)
         {
             throw new NotImplementedException();
         }
